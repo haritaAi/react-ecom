@@ -1,0 +1,126 @@
+{
+    "products":[
+        {
+            "_id" : "dress1",
+            "title": "Dress 1",
+            "image":"/images/dress1.jpeg",
+            "descriprtion" : "about dress",
+            "sizes" : ["X","M", "L"],
+            "price":789
+        },
+        {
+            "_id" : "dress2",
+            "title": "Dress 2",
+            "image":"/images/dress2.jpg",
+            "descriprtion" : "about dress",
+            "sizes" : ["X","M", "L"],
+            "price":500
+        },
+        {
+            "_id" : "dress3",
+            "title": "Dress 3",
+            "image":"/images/dress3.jpg",
+            "descriprtion" : "about dress",
+            "sizes" : ["X","M", "L"],
+            "price":850
+        },
+        {
+            "_id" : "dress4",
+            "title": "Dress 4",
+            "image":"/images/dress4.jpg",
+            "descriprtion" : "about dress",
+            "sizes" : ["X","M", "L"],
+            "price":730
+        },
+        {
+            "_id" : "dress5",
+            "title": "Dress 5",
+            "image":"/images/dress5.jpg",
+            "descriprtion" : "about dress",
+            "sizes" : ["X","M", "L"],
+            "price":905
+        },
+        {
+            "_id" : "dress6",
+            "title": "Dress 6",
+            "image":"/images/dress6.jpg",
+            "descriprtion" : "about dress",
+            "sizes" : ["X","M", "L"],
+            "price":699
+        },
+        {
+            "_id" : "dress7",
+            "title": "Dress 7",
+            "image":"/images/dress7.jpg",
+            "descriprtion" : "about dress",
+            "sizes" : ["X","M", "L"],
+            "price":469
+        },
+        {
+            "_id" : "dress8",
+            "title": "Dress 8",
+            "image":"/images/dress8.jpg",
+            "descriprtion" : "about dress",
+            "sizes" : ["X","M", "L"],
+            "price":560
+        },
+        {
+            "_id" : "dress9",
+            "title": "Dress 9",
+            "image":"/images/dress9.jpg",
+            "descriprtion" : "about dress",
+            "sizes" : ["X","M", "L"],
+            "price":999
+        },
+        {
+            "_id" : "dress10",
+            "title": "Dress 10",
+            "image":"/images/dress10.jpg",
+            "descriprtion" : "about dress",
+            "sizes" : ["X","M", "L"],
+            "price":1055
+        },
+        {
+            "_id" : "dress11",
+            "title": "Dress 11",
+            "image":"/images/dress11.jpg",
+            "descriprtion" : "about dress",
+            "sizes" : ["X","M", "L"],
+            "price":945
+        },
+        {
+            "_id" : "dress12",
+            "title": "Dress 12",
+            "image":"/images/dress12.jpg",
+            "descriprtion" : "about dress",
+            "sizes" : ["X","M", "L"],
+            "price":655
+        },
+        {
+            "_id" : "dress13",
+            "title": "Dress 13",
+            "image":"/images/dress13.jpg",
+            "descriprtion" : "about dress",
+            "sizes" : ["X","M", "L"],
+            "price":980
+        },
+        {
+            "_id" : "dress14",
+            "title": "Dress 14",
+            "image":"/images/dress14.jpg",
+            "descriprtion" : "about dress",
+            "sizes" : ["X","M", "L"],
+            "price":685
+        },
+        {
+            "_id" : "dress15",
+            "title": "Dress 15",
+            "image":"/images/dress15.jpg",
+            "descriprtion" : "about dress",
+            "sizes" : ["X","M", "L"],
+            "price":856
+        }
+
+
+    ]
+}
