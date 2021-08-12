@@ -15,7 +15,9 @@ class App extends Component {
      super();
      this.state = {
        products:data.products,
-       cartItems:[],
+       cartItems:localStorage.getItem("cartItems")?
+                  JSON.parse(localStorage.getItem("cartItems"))
+                  :[],
        size : "",
        sort:""
 
@@ -24,8 +26,9 @@ class App extends Component {
 
    removeFromCart = (product) => {
       const cartItems = this.state.cartItems;
-     this.setState({cartItems: cartItems.filter(item => item._id !== product._id)});
-
+        this.setState({cartItems: cartItems.filter(item => item._id !== product._id)});
+       localStorage.setItem("cartItems",JSON.stringify(cartItems.filter(item => item._id !== product._id)));
+     
    }
 
    addToCart = (product) => {
@@ -43,6 +46,7 @@ class App extends Component {
          
         } 
         this.setState({cartItems});
+        localStorage.setItem("cartItems",JSON.stringify(cartItems));
    }
  
     filterProducts = (event) => {
