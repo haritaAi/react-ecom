@@ -197,3 +197,29 @@ html{
    border-bottom: 0.1rem #808080 solid;
    outline-width: 0;
  }
+ /* PRODUCT DETAILS/////////////////////// */
+ .product-details{
+   display:flex;
+   flex-wrap:wrap;
+   justify-content: space-between;
+   max-height:80vh;
+ }
+ .product-details img{
+   height: 80vh;
+   width: 46rem;
+   margin : 0 auto;
+   object-fit: cover;
+ }
+.product-details-description{
+   flex:1 1;
+   margin : 1rem;
+ }
+ .close-modal{
+   position:absolute;
+   right: 1rem;
+   top:2.5rem;
+   z-index:1000;
+ }
+ .close-modal:hover{
+   cursor:pointer;
+ }
