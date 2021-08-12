@@ -2,122 +2,122 @@
     "products":[
         {
             "_id" : "dress1",
-            "title": "Dress 1",
+            "title": "Midi tea dress with floral pattern",
             "image":"/images/dress1.jpeg",
-            "descriprtion" : "about dress",
-            "sizes" : ["X","M", "L"],
+            "descriprtion" : "Midi tea dress with floral pattern",
+            "sizes" : ["S","M", "L"],
             "price":789
         },
         {
             "_id" : "dress2",
-            "title": "Dress 2",
+            "title": "Emboridered dress overcoat style",
             "image":"/images/dress2.jpg",
-            "descriprtion" : "about dress",
-            "sizes" : ["X","M", "L"],
+            "descriprtion" : "Emboridered dress overcoat style",
+            "sizes" : ["S","M", "L"],
             "price":500
         },
         {
             "_id" : "dress3",
-            "title": "Dress 3",
+            "title": "formal wear dress",
             "image":"/images/dress3.jpg",
-            "descriprtion" : "about dress",
-            "sizes" : ["X","M", "L"],
+            "descriprtion" : "formal wear dress",
+            "sizes" : ["S","M", "L"],
             "price":850
         },
         {
             "_id" : "dress4",
-            "title": "Dress 4",
+            "title": "perfect party wear dress",
             "image":"/images/dress4.jpg",
-            "descriprtion" : "about dress",
-            "sizes" : ["X","M", "L"],
+            "descriprtion" : "perfect party wear dress",
+            "sizes" : ["S","M", "L"],
             "price":730
         },
         {
             "_id" : "dress5",
-            "title": "Dress 5",
+            "title": "Mesmerising floral mini dress",
             "image":"/images/dress5.jpg",
-            "descriprtion" : "about dress",
-            "sizes" : ["X","M", "L"],
+            "descriprtion" : "Mesmerising floral mini dress dress",
+            "sizes" : ["S","M", "L"],
             "price":905
         },
         {
             "_id" : "dress6",
-            "title": "Dress 6",
+            "title": "Retro wagon Beautiful Blue dress",
             "image":"/images/dress6.jpg",
-            "descriprtion" : "about dress",
-            "sizes" : ["X","M", "L"],
+            "descriprtion" : "Retro wagon Beautiful Blue dress",
+            "sizes" : ["S","M", "L"],
             "price":699
         },
         {
             "_id" : "dress7",
-            "title": "Dress 7",
+            "title": "Bridemaids perfect floral dress",
             "image":"/images/dress7.jpg",
-            "descriprtion" : "about dress",
-            "sizes" : ["X","M", "L"],
+            "descriprtion" : "Bridemaids perfect floral dress",
+            "sizes" : ["S","M", "L","XS","XL"],
             "price":469
         },
         {
             "_id" : "dress8",
-            "title": "Dress 8",
+            "title": "Red dress with white polka dots",
             "image":"/images/dress8.jpg",
-            "descriprtion" : "about dress",
-            "sizes" : ["X","M", "L"],
+            "descriprtion" : "Red dress with white polka dots",
+            "sizes" : ["XS","M", "L"],
             "price":560
         },
         {
             "_id" : "dress9",
-            "title": "Dress 9",
+            "title": "Pretty party wear polka dot dress",
             "image":"/images/dress9.jpg",
-            "descriprtion" : "about dress",
-            "sizes" : ["X","M", "L"],
+            "descriprtion" : "Pretty party wear polka dot dress",
+            "sizes" : ["XS","M", "L","XL"],
             "price":999
         },
         {
             "_id" : "dress10",
-            "title": "Dress 10",
+            "title": "Formal wear dress",
             "image":"/images/dress10.jpg",
-            "descriprtion" : "about dress",
-            "sizes" : ["X","M", "L"],
+            "descriprtion" : "Formal wear dress",
+            "sizes" : ["S","M", "XL"],
             "price":1055
         },
         {
             "_id" : "dress11",
-            "title": "Dress 11",
+            "title": "Formal wear classy dress",
             "image":"/images/dress11.jpg",
-            "descriprtion" : "about dress",
-            "sizes" : ["X","M", "L"],
+            "descriprtion" : "Formal wear classy dress",
+            "sizes" : ["XL", "L","XS"],
             "price":945
         },
         {
             "_id" : "dress12",
-            "title": "Dress 12",
+            "title": "Back to school  all time dress",
             "image":"/images/dress12.jpg",
-            "descriprtion" : "about dress",
-            "sizes" : ["X","M", "L"],
+            "descriprtion" : "Back to school  all time dress",
+            "sizes" : ["M", "L","XS", "S"],
             "price":655
         },
         {
             "_id" : "dress13",
-            "title": "Dress 13",
+            "title": "Back to school  all time dress",
             "image":"/images/dress13.jpg",
-            "descriprtion" : "about dress",
-            "sizes" : ["X","M", "L"],
+            "descriprtion" : "Back to school  all time dress",
+            "sizes" : ["M", "L"],
             "price":980
         },
         {
             "_id" : "dress14",
-            "title": "Dress 14",
+            "title": "Formal wear dress",
             "image":"/images/dress14.jpg",
-            "descriprtion" : "about dress",
-            "sizes" : ["X","M", "L"],
+            "descriprtion" : "Formal wear dress",
+            "sizes" : ["XS","M", "L"],
             "price":685
         },
         {
             "_id" : "dress15",
-            "title": "Dress 15",
+            "title": "Beautiful lace dress",
             "image":"/images/dress15.jpg",
-            "descriprtion" : "about dress",
-            "sizes" : ["X","M", "L"],
+            "descriprtion" : "Beautiful lace dress",
+            "sizes" : ["M", "L","S"],
             "price":856
         }
 

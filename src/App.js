@@ -64,7 +64,7 @@ class App extends Component {
     sortProducts = (event) => {
    const sort = event.target.value;
       // sort products
-         this.setState(state => ({
+         this.setState(() => ({
            sort : sort,
            products : this.state.products.slice().sort((a,b) => 
              sort === "lowest"
