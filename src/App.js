@@ -23,7 +23,9 @@ class App extends Component {
 
      };
    }
-
+   createOrder = (order) => {
+     alert("Need to save order for " + order.name );
+   }
    removeFromCart = (product) => {
       const cartItems = this.state.cartItems;
         this.setState({cartItems: cartItems.filter(item => item._id !== product._id)});
@@ -109,7 +111,8 @@ class App extends Component {
            </div>
            <div className="side-content">
                <Cart cartItems = {this.state.cartItems}
-                     removeFromCart = {this.removeFromCart}/>
+                     removeFromCart = {this.removeFromCart}
+                     createOrder = {this.createOrder}/>
            </div>
          </div>
           </main>

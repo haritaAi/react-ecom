@@ -90,9 +90,7 @@ html{
    max-height:37rem;
  
  }
- .product-title{
-  
- }
+ 
  .product-price{
     display:flex;
     justify-content: space-between;
@@ -112,6 +110,8 @@ html{
    cursor: pointer;
  }
  .button-primary{
+   text-align: center;
+   border-radius: 0.4rem;
    background-color: #f0c040;
    padding: 1rem;
    color:#444444;
@@ -169,4 +169,31 @@ html{
  .total > div{
    font-size: 2rem;
    flex : 1;
+ }
+ /* ChekOut///////////////////////////// */
+ .form-control{
+   width:100%;   
+   padding : 0;
+   list-style-type: none;
+   
+ }
+ .form-control li{
+   display:flex;
+   justify-content: center;
+   flex-direction : column;
+   padding:1rem;
+ }
+ .form-control li>button{
+   width:50%;
+   margin: 0.2rem auto;  
+   outline-width: 0; 
+   border-width: 0;
+ }
+ input{   
+
+   border-width: 0;
+   padding: 1rem 0.5rem;
+   background-color:rgba(255, 255, 255, 0);
+   border-bottom: 0.1rem #808080 solid;
+   outline-width: 0;
  }
