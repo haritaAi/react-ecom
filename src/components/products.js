@@ -34,7 +34,7 @@ import {connect} from 'react-redux';
                     {
                         !this.props.products ? <div>Loading...</div>
                                              :  <ul className="products">
-                                             {
+                                             {  
                                                  this.props.products.map(product => (
                                                      <li key = {product._id}>
                                                          <div className="product">   
@@ -105,4 +105,4 @@ import {connect} from 'react-redux';
 }
  
 export default connect(state => 
-     ({products: state.products.items}), {fetchProducts})(Products);
+     ({products: state.products. filteredItems}), {fetchProducts})(Products);

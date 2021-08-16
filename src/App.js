@@ -21,8 +21,8 @@ class App extends Component {
        cartItems:localStorage.getItem("cartItems")?
                   JSON.parse(localStorage.getItem("cartItems"))
                   :[],
-       size : "",
-       sort:""
+      //  size : "",
+      //  sort:""
 
      };
    }
@@ -54,43 +54,43 @@ class App extends Component {
         localStorage.setItem("cartItems",JSON.stringify(cartItems));
    }
  
-    filterProducts = (event) => {
-      //filter products
-      if(event.target.value === "")
-            this.setState({
-              size:event.target.value,
-              products: data.products
-            });
+  //   filterProducts = (event) => {
+  //     //filter products
+  //     if(event.target.value === "")
+  //           this.setState({
+  //             size:event.target.value,
+  //             products: data.products
+  //           });
 
-      else{this.setState({
-          size : event.target.value,
-          products: data.products.filter(product =>
-            product.sizes.includes(event.target.value) )
-        });
-       }
-    }
+  //     else{this.setState({
+  //         size : event.target.value,
+  //         products: data.products.filter(product =>
+  //           product.sizes.includes(event.target.value) )
+  //       });
+  //      }
+  //   }
 
-    sortProducts = (event) => {
-   const sort = event.target.value;
-      // sort products
-         this.setState(() => ({
-           sort : sort,
-           products : this.state.products.slice().sort((a,b) => 
-             sort === "lowest"
-             ? a.price > b.price 
-                ?1 
-                :-1
-             :sort === "highest"
-             ?a.price < b.price 
-                ?1 
-                :-1
-             :a._id < b._id
-                ? 1
-                 :-1
-           )
-         }))
+  //   sortProducts = (event) => {
+  //  const sort = event.target.value;
+  //     // sort products
+  //        this.setState(() => ({
+  //          sort : sort,
+  //          products : this.state.products.slice().sort((a,b) => 
+  //            sort === "lowest"
+  //            ? a.price > b.price 
+  //               ?1 
+  //               :-1
+  //            :sort === "highest"
+  //            ?a.price < b.price 
+  //               ?1 
+  //               :-1
+  //            :a._id < b._id
+  //               ? 1
+  //                :-1
+  //          )
+  //        }))
 
-    }
+  //   }
 
   render() { 
     return ( 
@@ -102,14 +102,16 @@ class App extends Component {
       <main>
          <div className="content">
            <div className="main-content">
-            <Filter count = {this.state.products.length}
-              size = {this.state.size}
-              sort = {this.state.sort}
-              filterProducts = {this.filterProducts}
-              sortProducts = {this.sortProducts}
+            <Filter 
+            // count = {this.state.products.length}
+            //   size = {this.state.size}
+            //   sort = {this.state.sort}
+            //   filterProducts = {this.filterProducts}
+            //   sortProducts = {this.sortProducts}
               >
               </Filter > 
-               <Products products = {this.state.products}
+               <Products 
+                        // products = {this.state.products}
                          addToCart = {this.addToCart}
                          ></Products>
            </div>
