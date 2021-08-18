@@ -1,11 +1,11 @@
+import {API} from '../../backend';
 import { FETCH_PRODUCTS, FILTER_PRODUCTS_BY_SIZE, ORDER_PRODUCTS_BY_PRICE } from "../types";
-
 
 
 
 export const  fetchProducts = () => async (dispatch) => {
 
-  const res =   await fetch('/api/products');
+  const res =   await fetch(`${API}/api/products`);
   const data = await  res.json();
   dispatch({ type:FETCH_PRODUCTS, payload : data });
 
