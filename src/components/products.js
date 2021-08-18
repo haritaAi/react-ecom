@@ -39,7 +39,7 @@ import {addToCart} from '../actions/cartActions';
                                                      <li key = {product._id}>
                                                          <div className="product">   
                                                            <a href={"#"+ product._id} onClick ={() => {this.openModal(product)}} >  
-                                                              <img src={product.image}   />
+                                                              <img src={product.image} alt = "product"  />
                                                                <p className = "product-title">
                                                                    {product.title}
                                                                </p>
